@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Lista de Super Heróis</title>
+        <script src="js/script.js"></script>
+
+        <style>
+
+            h1{
+                color: blue;
+                font-size: larger;
+            }
+
+            .card{
+                border-color: grey;
+                border-width: 1px;
+                border-style: solid;
+                width: 18%;
+            }
+
+            #conteudo-herois{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+        </style>
+
+    </head>
+    
+    <body onload="carregarHerois()">
+
+        <h1 class="header">Lista de Herois</h1>
+
+        <div id="conteudo-herois"></div>
+
+        <h1 class="footer">Final da Lista</h1>
+    
+    </body>
+
+</html>
